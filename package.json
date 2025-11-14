@@ -1,0 +1,17 @@
+{
+  "name": "just-chat-with-mia",
+  "version": "1.0.0",
+  "description": "Chat project with MCP integration",
+  "main": "index.js",
+  "scripts": {
+    "validate-mcp": "node copilot/validate-mcp.js",
+    "check-mcp": "node copilot/validate-mcp.js"
+  },
+  "keywords": [
+    "mcp",
+    "chat",
+    "copilot"
+  ],
+  "author": "",
+  "license": "ISC"
+}
