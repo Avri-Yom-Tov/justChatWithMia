@@ -8,3 +8,29 @@
 dont run any uther action
 dont run any other MCP server, just time-mcp
 JUST Call the MCP server time-mcp and run the getTime tool. Show me the response.
+
+
+
+
+
+https://github.com/copilot/agents?repo=Avri-Yom-Tov/justChatWithMia
+
+
+
+
+
+
+
+
+
+
+@copilot use manual tool mode.
+Do not initialize ANY tool unless I explicitly call it by name.
+
+@copilot
+dont run any uther action
+dont run any other MCP server
+JUST Call the MCP server cloudwatch-mcp
+ and run the  list tools . Show me the response.
+
+

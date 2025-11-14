@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "cloudwatch-mcp": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "awslabs.cloudwatch-mcp-server@latest",
+        "awslabs.cloudwatch-mcp-server"
+      ]
+    }
+  }
+}
