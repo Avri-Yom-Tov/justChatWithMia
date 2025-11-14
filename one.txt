@@ -1,0 +1,2 @@
+@copilot Use only the MCP tool "context7". Do not start a task. Answer inline only. use context7 mcp to analyze axiosIt.js and base the doc of axios for this var do it code well ?
+
