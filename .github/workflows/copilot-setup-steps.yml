@@ -21,4 +21,4 @@ jobs:
         run: pip install uv
 
       - name: Pre-fetch CloudWatch MCP
-        run: uvx --from awslabs.cloudwatch-mcp-server@latest awslabs.cloudwatch-mcp-server.exe --version
+        run: uvx --from awslabs.cloudwatch-mcp-server@latest awslabs.cloudwatch-mcp-server --version
