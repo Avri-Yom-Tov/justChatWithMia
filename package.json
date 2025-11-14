@@ -1,0 +1,10 @@
+{
+  "name": "justAxios",
+  "scripts": {
+    "start": "node axiosIt.js"
+  },
+  "author": "Avri",
+  "dependencies": {
+    "axios": "^1.13.1"
+  }
+}
