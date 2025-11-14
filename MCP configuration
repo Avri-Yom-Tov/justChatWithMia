@@ -1,0 +1,22 @@
+{
+    "mcpServers": {
+        "context7": {
+            "type": "http",
+            "url": "https://mcp.context7.com/mcp",
+            "headers": {
+                "CONTEXT7_API_KEY": "ctx7sk-e14a23de-86bf-4150-96b0-0afdeaa7f5aa"
+            },
+            "tools": [
+                "get-library-docs",
+                "resolve-library-id"
+            ]
+        }
+    },
+    "time-mcp": {
+        "type": "http",
+        "url": "https://xudyjf22ejgrywuvlslsc2uftm0qywgd.lambda-url.us-west-2.on.aws",
+        "tools": [
+            "getTime"
+        ]
+    }
+}
