@@ -1,8 +1,0 @@
-{
-    "servers": {
-        "aws-ops": {
-            "transport": "http",
-            "url": "https://mcp-aws.your-company.com/mcp"
-        }
-    }
-}
