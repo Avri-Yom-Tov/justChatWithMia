@@ -10,13 +10,24 @@
                 "get-library-docs",
                 "resolve-library-id"
             ]
+        },
+        "time-mcp": {
+            "type": "http",
+            "url": "https://xudyjf22ejgrywuvlslsc2uftm0qywgd.lambda-url.us-west-2.on.aws",
+            "tools": [
+                "getTime"
+            ]
+        },
+        "cloudwatch-mcp": {
+            "type": "http",
+            "url": "https://cloudwatch-mcp.example.com/mcp",
+            "tools": [
+                "get-metrics",
+                "query-logs",
+                "list-alarms",
+                "put-metric-data",
+                "describe-alarms"
+            ]
         }
-    },
-    "time-mcp": {
-        "type": "http",
-        "url": "https://xudyjf22ejgrywuvlslsc2uftm0qywgd.lambda-url.us-west-2.on.aws",
-        "tools": [
-            "getTime"
-        ]
     }
 }
