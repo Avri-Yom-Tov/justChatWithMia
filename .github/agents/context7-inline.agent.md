@@ -1,5 +1,7 @@
 ---
 mode: "agent"
+name: context7-inline
+description: Analyzes code inline using Context7 MCP only.
 tools:
   deny:
     - github.*
